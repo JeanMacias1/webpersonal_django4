@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/b.jpg' %}{% endblock %}
+
+{% block headers %}
+        <h2>Acerca de</h2>
+{% endblock %}
+
+{% block content %}
+<h2 class="fw-300 centrar-texto">Quienes Somos</h2>
+<div class="container">
+    <div class="row">   
+      <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+      </div>
+      <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">ComponentesEc</h2>   
+        <p>En ComponentesEc, somos una empresa líder en el suministro de componentes electrónicos de alta calidad. Nuestro objetivo es proporcionar a nuestros clientes los productos más avanzados y confiables del mercado, para que puedan llevar a cabo sus proyectos tecnológicos con éxito.
+
+          Con una amplia experiencia en el campo de la electrónica, nuestro equipo de expertos está comprometido en ofrecerte soluciones innovadoras y eficientes. Nos enorgullece brindar un servicio excepcional, asesoramiento técnico especializado y una amplia gama de productos de marcas reconocidas.
+          
+          En ComponentesEc, nos esforzamos por establecer relaciones duraderas con nuestros clientes, basadas en la confianza y la satisfacción. Ya sea que estés buscando componentes para tus proyectos personales o necesites abastecer tu empresa con equipos electrónicos de calidad, estamos aquí para cubrir tus necesidades.
+          
+          Explora nuestro catálogo en línea y descubre la amplia variedad de componentes electrónicos que ofrecemos. Nos enorgullece ser tu socio confiable en el apasionante mundo de la electrónica.
+          
+          ¡ComponentesEc, conectando tus ideas con la tecnología del futuro!</p>
+      </div>
+    </div>  
+  </div>
+{% endblock %}
